@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>India Tour And Holidays</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<style>
+ input[type="submit"] {
+      background: red;
+      color: white;}
+header{
+/* background: rgba(13, 87, 235, 1);*/
+}
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 650px;
+  background: url("http://www.euttaranchal.com/tourism/photos/nainital-lake-7184911.jpg");
+ background-size: cover;
+}
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: rgba(0,0,0,1);
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: rgba(0,0,0,1);
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("http://1.bp.blogspot.com/-Y_N__veikbI/TnLVJ1FAnpI/AAAAAAAAAvE/nE97AR0ZTzI/s400/800px-Shimla_India_Ridge.JPG");
+}
+.second{
+  background-image: url("http://www.goabeachholidays.com/gallery/images/chapora/Chapora_2.jpg");
+}
+.third{
+  background-image: url("http://www.euttaranchal.com/tourism/photos/nainital-7054306.gif");
+}
+.fourth{
+ background-image: url("https://www.makemytrip.com/travel-guide/media/dg_image/gangtok/Tashi-Viewpoint-Pranav-Bhasin.jpg");
+}
+.fifth{
+ background-image: url("https://www.keralatourism.org/images/img-gallery-09.jpg");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+li{
+display: inline;
+padding:0px 50px 50px 0px;
+}
+ul{
+background: rgba(0,0,0,.6);
+text-align: center;
+}
+a{
+text-decoration: none;
+color:rgba(225,225,225,1);
+}
+</style>
+
+</head>
+
+<body>
+<header>
+<h1>India Tour And Holidays </h1><hr>
+<h2>Let us plan you a perfect India Holidays.</h2>
+<ul>
+<li><a href="#">Shimla</a></li>
+<li><a href="#">Goa</a></li>
+<li><a href="#">nainital</a></li>
+</ul>
+</header>
+<div class="first">
+  <p>Shimla <span class="price">Rs. 6997</span><br />
+  <small>A 3 day 4 neight holiday package of shimla . 3 star hotal room will be provided  with free brackfast and lunch.   </small></p>
+</div>
+ <input type="comment" placeholder="Your feedback">
+  <input type="submit">
+
+<div class="second">
+  <p>Goa <span class="price">Rs. 8567</span><br />
+  <small>A 4days 3night holiday package of goa . 3 star hoteal room will be provided with free brackfast and lunch.</small></p>
+</div>
+<input type="comment" placeholder="Your feedback">
+  <input type="submit">
+  
+<div class="third">
+  <p>Nainital <span class="price">Rs. 9424</span><br />
+  <small>A 3day 4 night holiday package of nainital. 3 star hotal room will be provided with free brackfast and lunch.</small></p>
+</div>
+<input type="comment" placeholder="Your feedback">
+  <input type="submit">
+<div class="fourth">
+ <p>Gangtok <span class="price">Rs. 8255</span><br />
+ <small>A 3 days 4 nignt holiday package of gangtok. 3 star hotal room will be provided with free brackfast and lunch.</small></p>
+</div> 
+ <input type="comment" placeholder="Your feedback">
+  <input type="submit">
+<div class ="fifth">
+ <p>Kerala<span class ="price">Rs. 9863</span><br />
+ <small>A 3 days 4 nignt holiday package of kerala. 3 star hotal room will be provided with free brackfast and lunch.</small></p>
+</div>
+<input type="comment" placeholder="Your feedback">
+  <input type="submit">
+<footer>
+<ul>
+<li><a href="#">terms&condition</a></li>
+<li><a href="#">About us</a></li>
+<li><a href="#">Contact info.</a></li>
+</ul>
+
+</footer>
+
+<script>
+  alert("Welcome to my website !");
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
+</html>
